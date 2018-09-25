@@ -1,0 +1,44 @@
+{
+    "title": "Agency",
+    "name": "lanima-agency",
+    "version": "5.0.1",
+    "description": "personal www.lanima.lv web page",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "www.lanima.lv",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
+        "email": "lanima.latvija@gmail.com"
+    },
+    "license": "MIT",
+    "author": "lanima",
+    "contributors": [
+        "Madars Balodis (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.2.0",
+        "bootstrap": "4.1.3",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.24.6",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-clean-css": "3.10.0",
+        "gulp-header": "2.0.5",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.1",
+        "gulp-uglify": "3.0.1"
+    }
+}

@@ -1,2 +1,2 @@
-# tehlab-test
-test
+#www.lanima.lv
+balodis.madars@gmail.com
