@@ -293,16 +293,38 @@
 
         <div class="row">
           <!-- About image -->
-          <div class="col-md-6 col-sm-4 col-xs-4 text-center" id="about-img" style="max-width: 100%">
-            <img src="img/portfolio/01-thumbnail.jpg" style="width: 50%; box-shadow: 10px 10px 5px grey"> 
+          <div class="col-md-6 col-sm-6 col-xs-6 text-center" id="about-img" style="max-width: 100%">
+            <div class="w3-content w3-section" style="max-width:80%; box-shadow: 10px 10px 5px grey">
+                <img class="mySlides w3-animate-fading" src="img/portfolio/01-thumbnail.jpg" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="img/portfolio/02-thumbnail.jpg" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="img/portfolio/03-thumbnail.jpg" style="width:100%">
+                <img class="mySlides w3-animate-fading" src="img/portfolio/04-thumbnail.jpg" style="width:100%">
+              </div>
+              
+              <!-- Image Carousel script -->
+              <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 6000);    
+              }
+              </script>
+              <!--// Image Carousel script -->
           </div>
           <!--// About image -->
           
           <!-- About text -->
           <div class="col-md-6 col-sm-6 col-xs-6 text-center">
             <!-- Spaces -->
-            <br>
-            <br>
             <br>
             <!--// Spaces -->
             <p><b>Tehlab</b> ir Latvijas uzņēmums, kurš savu darbību uzsācis pateicoties Somijā ražotajiem Temppi termometriem . Šobrīd esam kļuvuši par vairāku neierastu produktu pārstāvjiem Latvijā, kļūstot par interesantu sadarbības partneri mūsu klientiem. </p>
