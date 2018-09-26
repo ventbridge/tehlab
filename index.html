@@ -21,6 +21,8 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
 
@@ -268,9 +270,32 @@
             <br>
           </div>
           <!-- Spare img -->
-          <div class="col-md-6" id="spare-parts-img" style="height: 300px; max-width: 100%">
-            <img src="img/spare-parts-img.jpg" style="width: 100%; background-repeat: no-repeat; background-position: center center; background-size: cover; box-shadow: 10px 10px 5px grey">
+          <div class="col-md-6 col-sm-6 col-xs-6 text-center" id="about-img" style="max-width: 100%; max-height: 100%">
+              <div class="w3-content w3-section" style="max-width:80%; box-shadow: 10px 10px 5px grey">
+                  <img class="mySlides w3-animate-fading" src="img/spare-parts/spare-parts-img-2_opt.jpg" style="width:100%">
+                  <img class="mySlides w3-animate-fading" src="img/spare-parts/spare-parts-img-1_opt.jpg" style="width:100%">
+                  <img class="mySlides w3-animate-fading" src="img/spare-parts/spare-parts-img-2_opt.jpg" style="width:100%">
+                  <img class="mySlides w3-animate-fading" src="img/spare-parts/spare-parts-img-1_opt.jpg" style="width:100%">
+              </div>
           </div>
+
+          <!-- Image Carousel script -->
+          <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                     x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 6000);    
+              }
+              </script>
           <!--// Spare img -->
         </div>
       </div>
@@ -299,7 +324,7 @@
                 <img class="mySlides w3-animate-fading" src="img/portfolio/02-thumbnail.jpg" style="width:100%">
                 <img class="mySlides w3-animate-fading" src="img/portfolio/03-thumbnail.jpg" style="width:100%">
                 <img class="mySlides w3-animate-fading" src="img/portfolio/04-thumbnail.jpg" style="width:100%">
-              </div>
+            </div>
               
               <!-- Image Carousel script -->
               <script>
