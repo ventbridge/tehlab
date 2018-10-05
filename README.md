@@ -1,2 +1,3 @@
 #www.lanima.lv
-balodis.madars@gmail.com
+lanima@inbox.lv
+lanima.latvija@gmail.com

@@ -1,8 +1,8 @@
 {
-    "title": "Agency",
-    "name": "lanima-agency",
+    "title": "TEHLAB",
+    "name": "website 01",
     "version": "5.0.1",
-    "description": "personal www.lanima.lv web page",
+    "description": "tehlab website",
     "keywords": [
         "css",
         "sass",
@@ -11,19 +11,19 @@
         "theme",
         "template"
     ],
-    "homepage": "www.lanima.lv",
+    "homepage": "www.tehlab.lv",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
+        "url": "https://github.com/lanimaLv/tehlab/issues",
         "email": "lanima.latvija@gmail.com"
     },
     "license": "MIT",
     "author": "lanima",
     "contributors": [
-        "Madars Balodis (http://davidmiller.io/)"
+        "lanima (http://www.lanima.lv)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/lanimaLv/tehlab"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.2.0",
